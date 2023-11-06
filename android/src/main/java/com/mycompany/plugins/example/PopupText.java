@@ -4,8 +4,8 @@ import android.util.Log;
 
 public class PopupText {
 
-    public String echo(String value) {
-        Log.i("Echo", value);
-        return value;
+    public String showPopup(String message) {
+        Log.i("Show PopupLog", message);
+        return message;
     }
 }

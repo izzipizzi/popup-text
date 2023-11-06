@@ -11,9 +11,27 @@ npx cap sync
 
 ## API
 
-<docgen-index></docgen-index>
+<docgen-index>
+
+* [`showPopup(...)`](#showpopup)
+
+</docgen-index>
 
 <docgen-api>
-<!-- run docgen to generate docs from the source -->
-<!-- More info: https://github.com/ionic-team/capacitor-docgen -->
+<!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
+
+### showPopup(...)
+
+```typescript
+showPopup(options: { message: string; }) => Promise<{ message: string; }>
+```
+
+| Param         | Type                              |
+| ------------- | --------------------------------- |
+| **`options`** | <code>{ message: string; }</code> |
+
+**Returns:** <code>Promise&lt;{ message: string; }&gt;</code>
+
+--------------------
+
 </docgen-api>

@@ -1,3 +1,3 @@
 export interface PopupTextPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  showPopup(options: { message: string }): Promise<{ message: string }>;
 }
