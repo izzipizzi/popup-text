@@ -1,0 +1,31 @@
+{
+  "api": {
+    "name": "PopupTextPlugin",
+    "slug": "popuptextplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "showPopup",
+        "signature": "(options: { message: string; }) => Promise<{ message: string; }>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ message: string; }"
+          }
+        ],
+        "returns": "Promise<{ message: string; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "showpopup"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
